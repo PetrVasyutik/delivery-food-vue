@@ -1,16 +1,19 @@
 <template>
   <div class="page-wrapper">
-    <Header />
+    <Header @toggleModal="isOpen = !isOpen" />
     <main class="main">
       <router-view></router-view>
     </main>
-    <Modal />
+    <Modal :isOpen="isOpen" @toggleModal="isOpen = !isOpen" />
     <Footer />
   </div>
 </template>
 <script setup>
+import { ref } from "vue";
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
 import Modal from '@/components/Modal.vue';
+
+const isOpen = ref(false);
 </script>
 <style scoped></style>

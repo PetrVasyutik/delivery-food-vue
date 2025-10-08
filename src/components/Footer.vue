@@ -24,4 +24,64 @@
 </template>
 <script>
 </script>
-<style></style>
+<style scoped lang="css">
+.footer {
+  min-height: 156px;
+  display: flex;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.footer-box {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 36px;
+}
+
+.footer-nav {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.footer-nav-list {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(auto-fit, minmax(0, max-content));
+  gap: 15px;
+  justify-content: start;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-nav-item {
+  white-space: nowrap;
+  color: #595959;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer-social {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  gap: 20px;
+  justify-content: end;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.footer-social img {
+  white-space: nowrap;
+}
+
+.footer-social a:hover {
+  transform: scale(1.2);
+}
+</style>

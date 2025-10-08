@@ -10,7 +10,7 @@
             <img src="@/assets/images/icons/user.svg" alt="user">
             <span>Войти</span>
           </button>
-          <button class="btn btn--outline" id="cart-modal-btn">
+          <button class="btn btn--outline" @click="openModal()">
             <img src="@/assets/images/icons/basket.svg" alt="basket">
             <span>Корзина</span>
           </button>
@@ -19,5 +19,28 @@
     </div>
   </header>
 </template>
-<script></script>
-<style></style>
+<script setup>
+const emit = defineEmits(['toggleModal']);
+const openModal = () => emit('toggleModal');
+</script>
+<style scoped lang="css">
+.header {
+  min-height: 124px;
+  display: flex;
+  align-items: center;
+}
+
+.header-box {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+</style>
