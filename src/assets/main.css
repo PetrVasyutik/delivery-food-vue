@@ -163,7 +163,7 @@ body {
 
 .banner-item {
   height: 100%;
-  background-image: url('../images/banner-image.png');
+  background-image: url('@/assets/images/banner-image.png');
   background-size: contain;
   background-position: center right;
   background-repeat: no-repeat;

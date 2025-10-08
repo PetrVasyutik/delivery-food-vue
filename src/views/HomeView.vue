@@ -28,7 +28,7 @@
             <div class="products-card__description-row">
               <div class="products-card__description-info">
                 <div class="products-card__description-info-raiting">
-                  <img src="./images/icons/star.svg" alt="star">
+                  <img src="@/assets/images/icons/star.svg" alt="star">
                   4.5
                 </div>
                 <div class="products-card__description-info-price">
@@ -43,7 +43,7 @@
         </a>
         <a href="./goods.html" class="products-card">
           <div class="products-card__image">
-            <img src="./images/rests/rest2.jpg" alt="rest-1">
+            <img src="@/assets/images/rests/rest2.jpg" alt="rest-1">
           </div>
           <div class="products-card__description">
             <div class="products-card__description-row">
@@ -53,7 +53,7 @@
             <div class="products-card__description-row">
               <div class="products-card__description-info">
                 <div class="products-card__description-info-raiting">
-                  <img src="./images/icons/star.svg" alt="star">
+                  <img src="@/assets/images/icons/star.svg" alt="star">
                   4.5
                 </div>
                 <div class="products-card__description-info-price">
@@ -68,7 +68,7 @@
         </a>
         <a href="./goods.html" class="products-card">
           <div class="products-card__image">
-            <img src="./images/rests/rest3.jpg" alt="rest-1">
+            <img src="@/assets/images/rests/rest3.jpg" alt="rest-1">
           </div>
           <div class="products-card__description">
             <div class="products-card__description-row">
@@ -78,7 +78,7 @@
             <div class="products-card__description-row">
               <div class="products-card__description-info">
                 <div class="products-card__description-info-raiting">
-                  <img src="./images/icons/star.svg" alt="star">
+                  <img src="@/assets/images/icons/star.svg" alt="star">
                   4.5
                 </div>
                 <div class="products-card__description-info-price">
@@ -93,7 +93,7 @@
         </a>
         <a href="./goods.html" class="products-card">
           <div class="products-card__image">
-            <img src="./images/rests/rest4.jpg" alt="rest-1">
+            <img src="@/assets/images/rests/rest4.jpg" alt="rest-1">
           </div>
           <div class="products-card__description">
             <div class="products-card__description-row">
@@ -103,7 +103,7 @@
             <div class="products-card__description-row">
               <div class="products-card__description-info">
                 <div class="products-card__description-info-raiting">
-                  <img src="./images/icons/star.svg" alt="star">
+                  <img src="@/assets/images/icons/star.svg" alt="star">
                   4.5
                 </div>
                 <div class="products-card__description-info-price">
@@ -118,7 +118,7 @@
         </a>
         <a href="./goods.html" class="products-card">
           <div class="products-card__image">
-            <img src="./images/rests/rest5.jpg" alt="rest-1">
+            <img src="@/assets/images/rests/rest5.jpg" alt="rest-1">
           </div>
           <div class="products-card__description">
             <div class="products-card__description-row">
@@ -128,7 +128,7 @@
             <div class="products-card__description-row">
               <div class="products-card__description-info">
                 <div class="products-card__description-info-raiting">
-                  <img src="./images/icons/star.svg" alt="star">
+                  <img src="@/assets/images/icons/star.svg" alt="star">
                   4.5
                 </div>
                 <div class="products-card__description-info-price">
@@ -143,7 +143,7 @@
         </a>
         <a href="./goods.html" class="products-card">
           <div class="products-card__image">
-            <img src="./images/rests/rest6.jpg" alt="rest-1">
+            <img src="@/assets/images/rests/rest6.jpg" alt="rest-1">
           </div>
           <div class="products-card__description">
             <div class="products-card__description-row">
@@ -153,7 +153,7 @@
             <div class="products-card__description-row">
               <div class="products-card__description-info">
                 <div class="products-card__description-info-raiting">
-                  <img src="./images/icons/star.svg" alt="star">
+                  <img src="@/assets/images/icons/star.svg" alt="star">
                   4.5
                 </div>
                 <div class="products-card__description-info-price">
