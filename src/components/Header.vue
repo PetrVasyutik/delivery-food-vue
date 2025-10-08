@@ -2,9 +2,9 @@
   <header class="header">
     <div class="container">
       <div class="header-box">
-        <a href="#" class="header-logo logo">
+        <router-link to="/" class="header-logo logo">
           <img src="@/assets/images/logo.svg" alt="logo">
-        </a>
+        </router-link>
         <div class="header-controls">
           <button class="btn btn--primary">
             <img src="@/assets/images/icons/user.svg" alt="user">

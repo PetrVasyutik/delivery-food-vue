@@ -2,9 +2,9 @@
   <footer class="footer">
       <div class="container">
         <div class="footer-box">
-          <a href="#" class="footer-logo logo">
+          <router-link to="/" class="footer-logo logo">
             <img src="@/assets/images/logo.svg" alt="logo">
-          </a>
+          </router-link>
           <div class="footer-nav">
             <ul class="footer-nav-list">
               <li class="footer-nav-item"><a href="#">Ресторанам</a></li>

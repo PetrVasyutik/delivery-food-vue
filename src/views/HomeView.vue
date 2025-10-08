@@ -16,7 +16,7 @@
         </input>
       </div>
       <div class="products-wrapper" id="rests-container">
-        <a href="./goods.html" class="products-card">
+        <router-link to="/rest" class="products-card">
           <div class="products-card__image">
             <img src="@/assets/images/rests/rest1.jpg" alt="rest-1">
           </div>
@@ -40,7 +40,7 @@
               </div>
             </div>
           </div>
-        </a>
+        </router-link>
         <a href="./goods.html" class="products-card">
           <div class="products-card__image">
             <img src="@/assets/images/rests/rest2.jpg" alt="rest-1">
