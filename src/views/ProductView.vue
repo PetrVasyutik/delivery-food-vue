@@ -2,7 +2,7 @@
   <section class="products">
     <div class="container">
       <div class="products-wrapper" id="goods-container">
-        <div class="products-card" v-for="goods in goodsArray" :key="goods.id">
+        <div class="products-card" v-for="goods in store.goods" :key="goods.id">
           <div class="products-card__image">
             <img :src="getUrl(goods.image)" :alt="goods.alt">
           </div>
@@ -29,7 +29,7 @@
   </section>
 </template>
 <script setup>
-import { goodsArray } from '@/constants/goods';
+import { store } from '@/store/index';
 
 const getUrl = (image) => {
   return new URL(`../assets/images/goods/${image}`, import.meta.url).href;
